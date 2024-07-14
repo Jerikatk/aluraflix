@@ -1,0 +1,37 @@
+.header{
+    background-color: #262626;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 5px 29px 0px rgba(34, 113, 209, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-header{
+ display: flex;
+ gap: 10px;
+}
+.menu-header li{
+    list-style: none;
+}
+
+.menu-item:first-child{
+    outline: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 0px 0px 12px 4px rgba(34, 113, 209, 1) inset;
+    border:2px solid rgba(34, 113, 209);
+    color: rgba(34, 113, 209);
+    border-radius: 4px;
+   }
+.menu-item.active{
+    outline: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: none;
+    border:2px solid white;
+    color: rgba(245, 245, 245, 1);
+    border-radius: 4px;
+   }

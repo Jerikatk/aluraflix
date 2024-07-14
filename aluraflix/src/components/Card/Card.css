@@ -1,0 +1,44 @@
+.card-container{
+    width:430px ;
+    border-radius: 15px;
+    border: 5px solid rgba(107, 209, 255, 1)
+    
+}
+.card-figure{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+.card-figure img{
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    border-bottom: 5px solid rgba(107, 209, 255, 1);
+    
+}
+
+.card-action{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: black;
+    width:100%;
+    overflow: hidden;
+    padding: 1em;
+
+}
+.card-action button{
+    color: white;
+    display: block;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-size: 19px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.card-action button:hover{
+    color: brown;
+}
